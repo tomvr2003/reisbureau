@@ -1,0 +1,28 @@
+ <?php
+            if (isset($_POST["search"])) {
+                $search = $_POST["search"];
+                $stmt = $conn->prepare("SELECT * FROM menu WHERE titel LIKE ?");
+                $stmt->execute(["%$search%"]);
+            } else {
+                $stmt = $conn->query("SELECT * FROM menu");
+            }
+
+            if (isset($_POST["reset"])) {
+                $stmt = $conn->query("SELECT * FROM menu");
+            }
+
+            while ($row = $stmt->fetch()) {
+        ?>
+
+            <div class="top-6-hotel">
+            <div class="hotel-block">
+                <div class="Hotel-Stars"><?php echo $row["Stars"] ?></div>
+                <div class="Hotel-naam"><?php echo $row["titel"] ?></div>
+                <div class="Hotel-plaats"><?php echo $row["Hotel-plaats"] ?></div>
+                <div class="Hotel-omschrijfing"><?php echo $row["Omschrijfing"] ?></div>
+                <div class="Hotel-prijs"><?php echo $row["Prijs"] ?></div>
+            </div>
+            </div>
+        <?php 
+            }
+        ?> 
