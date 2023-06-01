@@ -105,14 +105,24 @@ input {
   height: 100%;
   object-fit: cover;
 }
+/* php deal */
 
+.deals{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 100%;
+  background-color: red;
+}
+
+/* php deal */
 .top-6-fav {
   color: black;
   text-shadow: 1px 1px 2px gray;
   font-size: 40px;
 }
 
-.mid {
+.mid-top-6-fav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -194,6 +204,13 @@ input {
   flex-direction: row;
 }
 
+
+.hotel-block-img img {
+  max-width: 93%;
+  max-height: 93%;
+  object-fit: cover;
+}
+
 .hotel-block-left {
   width: 30%;
 }
@@ -205,4 +222,14 @@ input {
 
 .gap-15px {
   height: 15px;
+}
+
+.Hotel-Stars{
+  display: flex;
+  flex-direction: row;
+}
+
+.star-1 {
+  height: 20px;
+  width: 20px;
 }
