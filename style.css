@@ -569,7 +569,7 @@ input[type="submit"]:hover {
 .get_say_form {
   display: inline-block;
   padding: 45px 0 25px 30px;
-  background: #103e65;
+  background: #7189FF;
   position: relative;
 }
 .get_say_form h5 {
@@ -610,7 +610,7 @@ ul {
   font-size: 16px;
   text-decoration: unset;
   font-weight: 500;
-  background: #162b65;
+  background: #5668c2;
   border-radius: 5px 0 0 5px;
   transition: background 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   -webkit-transition: background 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);

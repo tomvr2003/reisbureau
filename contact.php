@@ -14,13 +14,13 @@
             </div>
             <form action="#">
               <div class="grid-50-50">
-                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="First Name" required>
                 <input type="text" placeholder="Last Name">
-                <input type="email" placeholder="Email">
+                <input type="email" placeholder="Email" required>
                 <input type="tel" placeholder="Phone">
               </div>
               <div class="grid-full">
-                <textarea placeholder="About Your Project" cols="30" rows="10"></textarea>
+                <textarea placeholder="About Your Project" cols="30" rows="10" required></textarea>
                 <input type="submit" value="Submit">
               </div>
             </form>
@@ -35,7 +35,7 @@
             </li>
             <li>
               <i class="fa fa-whatsapp"></i>
-              <a href="tel:">+31 123 123 123</a>
+              <a href="tel:">+31123123123</a>
             </li>
           </ul>  
           <ul class="get_say_social-icn">
