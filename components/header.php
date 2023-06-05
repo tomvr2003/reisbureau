@@ -11,7 +11,7 @@ require_once('connection.php');
       <a href="./index.php"><li>Home</li></a>
       <a href=""><li>Over ons</li></a>
       <a href=""><li>Locaties</li></a>
-      <a href=""><li>Contact</li></a>
+      <a href="./contact.php"><li>Contact</li></a>
     </ul>
   </div>
   <div class="header-right">
