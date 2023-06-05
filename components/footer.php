@@ -2,7 +2,7 @@
 
                 <div class="footer-left">
 
-                    <h3>Company<span>logo</span></h3>
+                    <h3>JTA<span>Travel</span></h3>
 
                     <p class="footer-links">
                         <a href="#" class="link-1">Home</a>
@@ -18,19 +18,19 @@
                         <a href="#">Contact</a>
                     </p>
 
-                    <p class="footer-company-name">Company Name © 2015</p>
+                    <p class="footer-company-name">JTA Travel © 2023</p>
                 </div>
 
                 <div class="footer-center">
 
                     <div>
                         <i class="fa fa-map-marker"></i>
-                        <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+                        <p><span>123 NIjmegen</span> Monkey Land</p>
                     </div>
 
                     <div>
                         <i class="fa fa-phone"></i>
-                        <p>+1.555.555.5555</p>
+                        <p>+31 6 123 123 123</p>
                     </div>
 
                     <div>
@@ -44,16 +44,13 @@
 
                     <p class="footer-company-about">
                         <span>About the company</span>
-                        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                        wij zijn een reisbureau website waar is de goedkoopst zijn
                     </p>
 
                     <div class="footer-icons">
 
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-github"></i></a>
-
                     </div>
 
                 </div>
