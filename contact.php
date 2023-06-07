@@ -37,6 +37,10 @@
               <i class="fa fa-whatsapp"></i>
               <a href="tel:">+31123123123</a>
             </li>
+            <li>
+              <i class="fa fa-instagram"></i>
+              <a href="inst:">JTA Travel</a>
+            </li>
           </ul>  
           <ul class="get_say_social-icn">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -46,6 +50,7 @@
         </div>        
       </div>
     </div>
+    <div class="small-space-contact"></div>
   </section>
   
 </main>

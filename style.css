@@ -596,6 +596,7 @@ ul {
   color: #fff;
   font-size: 32px;
 }
+
 .get_say_info_sec > li {
   display: grid;
   grid-template-columns: 40px auto;
@@ -620,6 +621,15 @@ ul {
 }
 .get_say_info_sec > li a:hover {
   background-color: #f85508;
+}
+
+.get_say_info_sec {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-space-contact {
+  height: 100px;
 }
 /* Contact us END */
 

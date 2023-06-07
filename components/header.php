@@ -9,7 +9,7 @@ require_once('connection.php');
   <div class="header-center">
     <ul>
       <a href="./index.php"><li>Home</li></a>
-      <a href="#top-6"><li>Top 6</li></a>
+      <a href="./index.php#top-6"><li>Top 6</li></a>
       <a href=""><li>Locaties</li></a>
       <a href="./contact.php"><li>Contact</li></a>
     </ul>
