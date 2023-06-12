@@ -4,7 +4,7 @@ require_once('connection.php');
 
 <header>
   <div class="header-left">
-    <h1>JTA Travel</h1>
+    <a href=".//index.php"><h1>JTA Travel</h1></a>
   </div>
   <div class="header-center">
     <ul>
@@ -19,7 +19,7 @@ require_once('connection.php');
     if (!isset($_SESSION["username"])) { 
       echo "<a href='./login.php'><button>Register/Login</button></a>";
     } else {
-      echo "<a href='./components/logout.php'><button>Logout</button></a>";
+      echo "<a href='./components/logout.php'><button>Logout</button></a><a href='./admin.php'><button>admin</button></a>";
     }
     ?>
   </div>

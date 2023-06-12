@@ -5,11 +5,7 @@
 ?>
 
 <main>
-    <div id="admin-full-page">
-        <div class="add-riesbru">
-            <a href="./add-riesbru.php"><button class="add-ries">Add ries</button></a>
-            <a href="booking.php"><button class="add-ries">Booking</button></a>
-        </div>
+    <div class="up-gap-booking"></div>
         <table class="rwd-table">
     <tbody>
       <tr>
@@ -41,8 +37,7 @@
           19,99
         </td>
         <td data-th="Action">
-            <a href="add-delete.php"><button class="delet-ries">delete ries</button></a>
-            <a href="add-edit.php"><button class="edit-ries">edit ries</button></a>
+            Buyyer name
         </td>
       </tr>
       </tr>
@@ -51,4 +46,3 @@
     </div>
 
 </main>
-
