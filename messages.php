@@ -8,7 +8,7 @@
 <main>
     <div id="admin-full-page">
         <div class="add-riesbru">
-            <a href="./add-riesbru.php"><button class="add-ries">Add ries</button></a>
+            <a href="./add-riesbureau.php"><button class="add-ries">Add ries</button></a>
             <a href="booking.php"><button class="add-ries">Booking</button></a>
             <a href="Messages.php"><button class="add-ries">messages</button></a>
         </div>
