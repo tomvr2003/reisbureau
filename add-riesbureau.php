@@ -1,24 +1,31 @@
-<?php session_start();
-    require_once('./components/connection.php');
-    include("./components/head.php");
-    include("./components/header.php");
-?>
+<?php
+session_start();
+require_once('./components/connection.php');
+include("./components/head.php");
+include("./components/header.php");
 
-
-<?php 
-if(isset($_POST["submit_button"])){
-    $image_id = $_POST["image_id"];
+if (isset($_POST["submit_button"])) {
+    $image = $_POST["image"];
     $star = $_POST["star"];
     $omschrijving = $_POST["omschrijving"];
     $location = $_POST["location"];
     $prijs = $_POST["prijs"];
-    
-    $sql = "INSERT INTO menu(image_id, star, omschrijving, location, prijs) VALUES(:image_id, :star, :omschrijving, :location, :prijs)";
+
+    $sql = "INSERT INTO reisbureau (image, star, omschrijving, location, prijs) VALUES (:image, :star, :omschrijving, :location, :prijs)";
     $statement = $conn->prepare($sql);
-    $statement->execute([":image_id" => $image_id, ":star" => $star, ":omschrijving" => $omschrijving, ":location" => $location, ":prijs" => $prijs]);
-    header("Location:index.php");
+    $statement->execute([
+        ":image" => $image,
+        ":star" => $star,
+        ":omschrijving" => $omschrijving,
+        ":location" => $location,
+        ":prijs" => $prijs
+    ]);
+
+    header("Location: ./index.php");
+    exit();
 }
 ?>
+
 <div class="up-gap-booking"></div>
 <div class="container">
     <form action="add-riesbureau.php" method="POST">
@@ -44,7 +51,7 @@ if(isset($_POST["submit_button"])){
             <div class="underline"></div>
         </div>
         <div class="input-box button">
-            <input type="submit" name="submit_button">
+            <input type="submit" name="submit_button" value="Submit">
         </div>
     </form>
 </div>

@@ -5,7 +5,11 @@
 ?>
 
 <main>
-    <div class="up-gap-booking"></div>
+<div class="add-riesbru">
+  <a href="./add-riesbureau.php"><button class="add-ries">Add ries</button></a>
+  <a href="booking.php"><button class="add-ries">Booking</button></a>
+  <a href="Messages.php"><button class="add-ries">messages</button></a>
+</div>
         <table class="rwd-table">
     <tbody>
       <tr>

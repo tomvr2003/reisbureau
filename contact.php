@@ -13,7 +13,6 @@
     $phone = $_POST['phone'];
     $message = $_POST['message'];
 
-    // Assuming you have a PDO database connection named $conn
     $query = "INSERT INTO contact (first_name, last_name, email, phone, message) VALUES (:first_name, :last_name, :email, :phone, :message)";
     $stmt = $conn->prepare($query);
     $stmt->bindParam(':first_name', $firstName);
@@ -23,7 +22,6 @@
     $stmt->bindParam(':message', $message);
     $stmt->execute();
 
-    // You can redirect the user to a thank you page after the form submission
     header("Location: ./index.php");
     exit();
   }
