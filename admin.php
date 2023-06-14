@@ -49,8 +49,8 @@ $reisbureauData = $statement->fetchAll(PDO::FETCH_ASSOC);
                             <?php echo $row['prijs']; ?>
                         </td>
                         <td data-th="Action">
-                            <a href="add-delete.php"><button class="delet-ries">Delete Ries</button></a>
-                            <a href="add-edit.php"><button class="edit-ries">Edit Ries</button></a>
+                            <a href="./components/delet.php?id=<?= $row['id']; ?>"><button class="delet-ries">Delete Ries</button></a>
+                            <a href="./edit.php?id=<?= $row['id']; ?>"><button class="edit-ries">Edit Ries</button></a>
                         </td>
                     </tr>
                 <?php } ?>
