@@ -33,7 +33,7 @@
         </div>
     </div>
 
-    <div class="top-6-title-container">
+    <div class="top-6-title-container" id="top-6">
         <h1 style="font-size: 40px;">Top 6 favoriete ontdekkingen</h1>
     </div>
 
@@ -43,7 +43,6 @@
     $stmt->execute();
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 ?>
-<div id="top-6">
     <div class="top-6-boxes-container">
         <div class="top-6-box">
             <div class="top-6-box-left">
@@ -65,7 +64,6 @@
                 <h3 class="rating-6"><?php echo $row["rating"]; ?></h3>
             </div>
         </div>
-    </div>
     </div>
 
     <?php 
